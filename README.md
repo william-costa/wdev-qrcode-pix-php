@@ -1,4 +1,4 @@
-# Implementação do QR code do Pix em PHP
+# Implementação do QR code estático e dinâmico do Pix em PHP
 
 Código da implementação do QR code estático e dinâmico do Pix com PHP, apresentado no canal [WDEV](https://youtube.com/wdevoficial).
 
