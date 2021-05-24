@@ -241,8 +241,11 @@ class Payload{
           }
       }
 
+      $resultado = strtoupper(dechex($resultado));
+      $resultado = str_pad($resultado, 4, '0', STR_PAD_LEFT);
+
       //RETORNA CÓDIGO CRC16 DE 4 CARACTERES
-      return self::ID_CRC16.'04'.strtoupper(dechex($resultado));
+      return $this->getValue(self::ID_CRC16, $resultado);
   }
 
 }
